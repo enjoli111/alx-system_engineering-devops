@@ -1,2 +1,2 @@
 #!/bin/bash
-cp HTML .. -R -u
+find . -name '*html' -exec /bin/sh -c 'file={}"; cp -prv "$file" "/tmp/all_projects/import_html_files"'\
